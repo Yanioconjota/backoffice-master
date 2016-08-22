@@ -1,0 +1,27 @@
+<h1 class="sidebar-title">Turnos - Backoffice</h1>
+<div class="sidebar">
+	<div class="clearfix"></div>
+	<ul class="list-group" ng-controller="SidebarController as sctrl">
+
+		<li ng-repeat="item in sctrl.menu" class="list-group-item" once-class="{ 'no-padding' : item.submenu }">
+
+			<!-- starts single menu -->
+			<a once-if="!item.submenu" once-href="item.when" once-text="item.html"></a>
+			<!-- ends single menu -->
+
+			<!-- starts submenu -->
+			<div ng-if="item.submenu" class="submenu">
+				<button type="button" class="dropdown-toggle fill text-left" data-toggle="dropdown">
+						<span once-text="item.html"></span>
+				</button>
+				<ul class="dropdown-menu fill">
+					<li ng-repeat="subitem in item.submenu">
+						<a once-href="subitem.when" once-text="subitem.html"></a>
+					</li>
+				</ul>
+			</div>
+			<!-- endss submenu -->
+
+		</li>
+	</ul>
+</div>

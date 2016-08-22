@@ -1,0 +1,47 @@
+<div class="main-wrapper" ng-controller="faqController as faqctrl">
+  <!-- Start Titulo vista -->
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="table-item">
+        <div class="title">
+          <h2>Preguntas frecuentes (FAQ)</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Titulo vista -->
+  <hr>
+  <!-- Start Select -->
+  <div class="row wrapper">
+    <div class="col-xs-12" ng-repeat="item in faqctrl.original">
+      <strong class="control-label" ng-bind="item.topico" ng-show="!faqctrl.guardar"></strong>
+      <div class="row">
+        <div class="col-xs-2">
+          <input type="text" class="form-control" ng-model="item.topico" ng-show="faqctrl.guardar">
+        </div>
+      </div>
+      <button class="btn btn-default btn-sm" type="button" name="button" ng-click="faqctrl.editarTitulo()" ng-show="!faqctrl.guardar">Renombrar</button>
+      <button class="btn btn-default btn-sm" type="button" name="button" ng-click="faqctrl.guardarTitulo()" ng-show="faqctrl.guardar">Guardar</button>
+      <button class="btn btn-default btn-sm" type="button" name="button">Editar contenido</button>
+      <button class="btn btn-default btn-sm" type="button" name="button">Eliminar</button>
+      <button class="btn btn-default btn-sm" type="button" name="button">Habilitar</button>
+      <hr>
+    </div>
+    <div class="col-xs-12">
+      <button class="btn btn-default btn-sm" type="button" data-toggle="collapse" data-target="#agregarTopico" aria-expanded="false" aria-controls="collapseExample">Agregar Tópico</button>
+    </div>
+    <div class="collapse" id="agregarTopico">
+      <div class="col-xs-2">
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Nuevo tópico" ng-model="faqctrl.newItem.topico">
+          <span class="has-error" ng-if="faqctrl.errorMensaje">El tópico no debe estar vacío</span>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="form-group">
+          <button class="btn btn-default btn-sm" type="button" name="button" ng-click="faqctrl.agregarTopico(faqctrl.newItem)">Agregar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

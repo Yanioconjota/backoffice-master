@@ -1,0 +1,51 @@
+[
+	{
+		"html" : "Catalogo",
+		"when" : "#catalogo"
+	},
+	{
+		"html":"Terminos y condiciones",
+		"when":"#tyc"
+	},
+	{
+		"html" : "ABM FAQ",
+		"when" : "#faq"
+	},
+	{
+		"html" : "Habilitar / Desabilitar prestadores",
+		"when" : "#prestadores"
+	},
+	{
+		"html" : "Configuración de envío",
+		"when" : "#envio"
+	},
+
+	{
+		"html" : "Reporte",
+		"when" : "#reporte",
+		"submenu":[
+			{
+				"html":"Agenda",
+				"when":"#agenda"
+			},
+			{
+				"html":"Pacientes",
+				"when":"#pacientes"
+			},
+			{
+				"html":"Turnos",
+				"when":"#turnos"
+			},
+			{
+				"html":"Turnos estado",
+				"when":"#turnos_estado"
+			},
+			{
+				"html":"Turnos mensuales",
+				"when":"#turnos_mensuales"
+			}
+		]
+	}
+
+
+]

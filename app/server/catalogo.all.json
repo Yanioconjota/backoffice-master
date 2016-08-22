@@ -1,0 +1,190 @@
+{
+ "page": {
+   "pageNumber": 1,
+   "pageSize": 1,
+   "totalResults": 1,
+   "totalResultsCached": false
+ },
+ "result": [
+   {
+     "id": 1,
+     "codFilial": 1,
+     "descFilial": "Metropolitana",
+     "habilitaBusquedaOl": true,
+     "audEstado": "Lorem ipsum",
+     "audFechaCambio": "01-01-2016",
+     "especialidades": [ 
+       {
+       "id": 2,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Cardiologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 3,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Neurologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 4,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Neurologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 5,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Cardiologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 6,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Neurologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 7,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Neurologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 8,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Cardiologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 9,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Cardiologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 10,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Cardiologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 11,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Cardiologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 12,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Cardiologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 13,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Cardiologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     },
+   
+       {
+       "id": 14,
+       "codEspecialidad": 1,
+       "descEspecialidad": "Cardiologia",
+       "habilitaBusquedaOl": true,
+       "limiteTurnosDiario": 1,
+       "limiteTurnosSemanal": 1,
+       "limiteTurnosMensual": 1,
+       "audEstado": 1,
+       "audFechaCambio": "01-01-2016",
+       "audUsuarioCambio": "Lorem ipsum"
+     }
+    ]
+   }
+ ],
+ "totalPages": 1,
+ "totalResults": 1
+}

@@ -1,0 +1,90 @@
+<div class="main-wrapper" ng-controller="repController as rctrl">
+  <!-- Start Titulo vista -->
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="table-item">
+        <div class="title">
+          <h2>Reporte | Pacientes</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Titulo vista -->
+  <hr>
+  <!-- Start Select -->
+  <div class="row wrapper">
+    <div class="col-xs-4">
+      <strong class="control-label">Filial</strong>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Ejemplo: 8 - Jujuy">
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <strong class="control-label">Prestador</strong>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Ejemplo: 2085 - Jurdon">
+      </div>
+    </div>
+    <div class="col-xs-12">
+      <button class="btn btn-default btn-sm" type="button" name="button">Buscar</button>
+    </div>
+  </div>
+  <!-- Start Tabla Resultados-->
+  <div class="row wrapper">
+    <div class="col-xs-8">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Filial</th>
+            <th>Prestador</th>
+            <th>Cantidad de pacientes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8 - Jujuy</td>
+            <td>2085 Jurdon</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>9 - Salta</td>
+            <td>2094 - Ramirez</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <td>10 - Tucumán</td>
+            <td>2025 - Jimenez</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>11 - Catamarca</td>
+            <td>2047 - Rojas</td>
+            <td>47</td>
+          </tr>
+        </tbody>
+      </table>
+      <nav aria-label="...">
+        <nav aria-label="Page navigation">
+          <ul class="pagination">
+            <li>
+              <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+              <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </nav>
+    </div>
+  </div>
+  <!-- End Tabla Resultados-->
+</div>

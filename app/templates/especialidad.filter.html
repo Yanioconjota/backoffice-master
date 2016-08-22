@@ -1,0 +1,54 @@
+<!-- Start Input type search -->
+<div class="row wrapper">
+  <div class="col-xs-4">
+    <strong class="control-label">Filtrar Especialidad</strong>
+    <div class="input-group">
+      <input type="search" ng-model="fCtrl.filter" ng-keyup="fCtrl.filterFn()" class="form-control" placeholder="Ej: Cardio">
+      <span class="input-group-addon"><i class="fa fa-filter"></i></span>
+      <span class="btn btn-xs clean-search" ng-show="fCtrl.filter!=''" ng-click="fCtrl.filter=''"><i class="fa fa-remove"></i></span>
+    </div>
+  </div>
+</div>
+<!-- End Input type search -->
+
+<!-- Starts Select all -->
+<div class="row wrapper push-top">
+  <div class="col-xs-12">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="table-item">
+          <div class="title form-group">
+            <label>
+              <input type="checkbox" ng-model="fCtrl.selectAll" ng-click="fCtrl.checkAll()">
+              Seleccionar todas</label>
+          </div>
+          <div>
+            <button class="btn btn-default btn-sm" ng-click="fCtrl.deleteSelected()">Eliminar seleccionadas</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Ends  Select all -->
+
+<!-- Start Lista Checkbox -->
+<div class="wrapper fix-overflow">
+  <ul class="list-unstyled">
+    <li class="list-speciality" ng-repeat="especialidad in fCtrl.filteredItems">
+      <label>
+        <input type="checkbox" ng-model="especialidad.selected">
+        <span once-text="especialidad.descEspecialidad"></span>
+        <span>{{especialidad.id}}</span>
+      </label>
+    </li>
+  </ul>
+</div>
+<!-- End Lista Checkbox -->
+
+<div class="row wrapper">
+  <div class="pull-left push-left">
+    <button class="btn btn-default btn-sm" ng-click="fCtrl.save()">Guardar</button>
+  </div>
+</div>
+  

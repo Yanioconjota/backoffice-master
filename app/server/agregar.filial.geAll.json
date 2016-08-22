@@ -1,0 +1,400 @@
+[
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Neurologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Neurologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Neurologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    },
+ 
+  {
+    "id": "1", 
+    "codEspecialidad": "2", 
+    "descEspecialidad": "Cardiologia", 
+    "habilitaBusquedaOl": true, 
+    "limiteTurnosDiario": 10, 
+    "limiteTurnosSemanal": 50, 
+    "limiteTurnosMensual": 200, 
+    "audEstado": "", 
+    "audFechaCambio": "Wed Jun 08 2016 11:44:23 GMT-0300", 
+    "audUsuarioCambio": "", 
+    "filial": {
+      "id": "1", 
+      "codFilial": "60", 
+      "descFilial": "Metropolitana", 
+      "habilitaBusquedaOl": true, 
+      "audEstado": "", 
+      "audFechaCambio":"Wed Jun 08 2016 11:44:23 GMT-0300" 
+      }
+    }
+]

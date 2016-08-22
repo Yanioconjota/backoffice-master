@@ -1,0 +1,115 @@
+<div class="main-wrapper" ng-controller="EspecialidadController as eCtrl">
+
+  <!-- Start Titulo vista -->
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="table-item">
+        <div class="title title-light">
+          <h2>Editar
+              <span class="bold" once-text="eCtrl.especialidad.descEspecialidad"></span> en 
+              <span class="bold" once-text="eCtrl.especialidad.filial.descFilial"></span> 
+              <span class="bold" once-text="eCtrl.especialidad.filial.codFilial"></span> 
+              <i ng-show="eCtrl.especialidad.habilitaBusquedaOl" class="fa fa-check success"></i></h2>
+        </div>
+        <button class="btn btn-default btn-sm" type="button" name="button" ng-click="eCtrl.publish()" ng-bind="eCtrl.especialidad.habilitaBusquedaOl ? 'Despublicar online' : 'Publicar online'"></button>
+      </div>
+    </div>
+  </div>
+  <!-- End Titulo vista -->
+  <hr>
+  <!-- Start Input type search -->
+  <div class="row wrapper">
+    <div class="col-xs-6">
+      <h6>Límite de turnos</h6>
+      <em class="push-top">La cantidad de días se cuentan hacia adelante y hacia atras de la fcecha solicitada del turno (Ejemplo para los 7 días: Si solicitan para el 8 de enero se verificarán los turnos del 1 de enero hasta el 15 enero)</em>
+      <form class="push-top">
+        
+        <!-- TURNOS DIARIOS -->
+        <div class="form-inline custom">
+          <strong class="control-label">Cantidad máxima de turnos</strong>
+          <span class="bold" ng-show="!eCtrl.limiteTurnosDiario" ng-bind="eCtrl.especialidad.limiteTurnosDiario">1</span>  
+          <input type="number" class="form-control" 
+                  min="0" 
+                  ng-show="eCtrl.limiteTurnosDiario"
+                  ng-model="eCtrl.tmpEspecialidad.limiteTurnosDiario" 
+                  ng-value="eCtrl.tmpEspecialidad.limiteTurnosSemanal">
+          <span>por día</span>
+          <span class="icon-container">
+            <span ng-show="!eCtrl.limiteTurnosDiario" ng-click="eCtrl.limiteTurnosDiario=true" class="icon-container" data-toggle="popover" data-content="Editar" data-trigger="hover" data-placement="top">
+              <span class="editar">&nbsp;</span>
+            </span>
+            <span ng-show="eCtrl.limiteTurnosDiario" ng-click="eCtrl.save('limiteTurnosDiario')" class="icon-container" data-toggle="popover" data-content="Guardar" data-trigger="hover" data-placement="top">
+              <span class="guardar">&nbsp;</span>
+            </span>
+            <span ng-show="eCtrl.limiteTurnosDiario" ng-click="eCtrl.limiteTurnosDiario=false" class="icon-container" data-toggle="popover" data-content="Eliminar" data-trigger="hover" data-placement="top">
+              <span class="eliminar">&nbsp;</span>
+            </span>
+          </span>
+        </div>
+  
+        <!-- TURNOS SEMANALES -->
+        <div class="form-inline custom">
+          <strong class="control-label">Cantidad máxima de turnos</strong>
+          <span class="bold" ng-show="!eCtrl.limiteTurnosSemanal" ng-bind="eCtrl.especialidad.limiteTurnosSemanal">1</span>  
+          <input type="number" class="form-control" 
+                min="0" 
+                ng-show="eCtrl.limiteTurnosSemanal" 
+                ng-model="eCtrl.tmpEspecialidad.limiteTurnosSemanal" 
+                ng-value="eCtrl.tmpEspecialidad.limiteTurnosSemanal">
+          <span>cada 7 días</span>
+          <span class="icon-container">
+            <span ng-show="!eCtrl.limiteTurnosSemanal" ng-click="eCtrl.limiteTurnosSemanal=true" class="icon-container" ata-toggle="popover" data-content="Editar" data-trigger="hover" data-placement="top">
+              <span class="editar">&nbsp;</span>
+            </span>
+            <span ng-show="eCtrl.limiteTurnosSemanal" ng-click="eCtrl.save('limiteTurnosSemanal')" class="icon-container" data-toggle="popover" data-content="Guardar" data-trigger="hover" data-placement="top">
+              <span class="guardar">&nbsp;</span>
+            </span>
+            <span ng-show="eCtrl.limiteTurnosSemanal" ng-click="eCtrl.limiteTurnosSemanal=false" class="icon-container" data-toggle="popover" data-content="Eliminar" data-trigger="hover" data-placement="top">
+              <span class="eliminar">&nbsp;</span>
+            </span>
+          </span>
+        </div>
+        
+        <!-- TURNOS MENSUALES -->
+        <div class="form-inline custom">
+          <strong class="control-label">Cantidad máxima de turnos</strong>
+          <span class="bold" ng-show="!eCtrl.limiteTurnosMensual" ng-bind="eCtrl.especialidad.limiteTurnosMensual">1</span>  
+          <input type="number" class="form-control" 
+                  min="0" 
+                  ng-show="eCtrl.limiteTurnosMensual" 
+                  ng-model="eCtrl.tmpEspecialidad.limiteTurnosMensual" 
+                  ng-value="eCtrl.tmpEspecialidad.limiteTurnosMensual">
+          <span>cada 30 días</span>
+          <span class="icon-container">
+            <span ng-show="!eCtrl.limiteTurnosMensual" ng-click="eCtrl.limiteTurnosMensual=true" class="icon-container" ata-toggle="popover" data-content="Editar" data-trigger="hover" data-placement="top">
+              <span class="editar">&nbsp;</span>
+            </span>
+            <span ng-show="eCtrl.limiteTurnosMensual" ng-click="eCtrl.save('limiteTurnosMensual')" class="icon-container" data-toggle="popover" data-content="Guardar" data-trigger="hover" data-placement="top">
+              <span class="guardar">&nbsp;</span>
+            </span>
+            <span ng-show="eCtrl.limiteTurnosMensual" ng-click="eCtrl.limiteTurnosMensual=false" class="icon-container" data-toggle="popover" data-content="Eliminar" data-trigger="hover" data-placement="top">
+              <span class="eliminar">&nbsp;</span>
+            </span>
+          </span>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- End Input type search -->
+
+  <!-- Start Link -->
+  <div class="row wrapper">
+    <div class="col-xs-6">
+      <ul class="list-unstyled">
+        <li>
+          <a class="link" href="#prestadores">Ver prestadores</a>
+        </li>
+        <li>
+          <a class="link" href="#configuracion_de_filtros">Configurar filtros del sitio</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Start Link -->
+
+</div>

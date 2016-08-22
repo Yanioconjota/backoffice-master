@@ -1,0 +1,109 @@
+<div class="main-wrapper" ng-controller="CatalogoController as cCtrl">
+  <!-- Start Titulo vista -->
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="table-item">
+        <div class="title">
+          <h2>Catálogo</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Titulo vista -->
+  <hr>
+
+  <!-- Start Buscar filial -->
+  <div class="row wrapper">
+    <div class="col-xs-12">
+      <strong class="control-label">Buscar filial</strong>
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="table-item">
+            <div>
+              <div class="input-group">
+                <input type="search" ng-model="cCtrl.search" class="form-control" placeholder="{{cCtrl.placeholder}}" ng-focus="cCtrl.resetPlaceholder()">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <span class="btn btn-xs clean-search" ng-show="cCtrl.search!=''" ng-click="cCtrl.cleanSearch()"><i class="fa fa-remove"></i></span>
+              </div>
+              <div ng-show="cCtrl.searchResult.length>0">
+                <span class="suggestion" ng-repeat="suggestion in cCtrl.searchResult" once-text="suggestion.descFilial+' '+suggestion.codFilial" ng-click="cCtrl.setSuggestion(suggestion)"></span>
+              </div>
+            </div>
+            <div>
+              <span ng-click="cCtrl.addFilial()" class="btn btn-default btn-sm" ng-show="cCtrl.showAdd">agregar</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-10">&nbsp</div>
+      </div>
+    </div>
+  </div>
+  <!-- End Buscar filial -->
+
+  <!-- Start Boton Type submit -->
+  <div class="row wrapper">
+    <div class="col-xs-4">
+      <button class="btn btn-default btn-sm" type="button" ng-click="cCtrl.unPublishAll()" name="button">despublicar todas</button>
+    </div>
+  </div>
+  <!-- End Boton Type submit -->
+
+  <!-- Start Tabla Resultados-->
+  <div class="row wrapper">
+    <div class="col-xs-12">
+      <div class="pagination">
+        <ul>
+          <li class="prev" ng-show="cCtrl.page.pageNumber-1>1">
+            <a href="javascript:void(0)" ng-click="cCtrl.goToPage(cCtrl.page.pageNumber-1)">anterior</a>
+          </li>
+          <li class="pages">
+            <ul>
+              <li ng-repeat="n in cCtrl.totalPages">
+                <a href="javascript:void(0)" ng-class="{current:$index+1==cCtrl.page.pageNumber}" once-text="$index+1" ng-click="cCtrl.goToPage($index+1)"></a>
+              </li>
+            </ul>
+          </li>
+          <li class="next" ng-show="cCtrl.page.pageNumber+1<cCtrl.totalPages.length">
+            <a href="javascript:void(0)" ng-click="cCtrl.goToPage(cCtrl.page.pageNumber+1)">siguiente</a>
+          </li>
+        </ul>
+      </div>
+      <table class="table reset" ng-init="cCtrl.rowsCollapsed={}">
+        <tr ng-repeat="filial in cCtrl.filialSpecialities" ng-init="cCtrl.rowsCollapsed[$index]=($index>0)?true:false">
+          <td>
+            <table class="table reset-margin">
+              <thead>
+                <tr>
+                  <th>
+                    <i class="btn btn-xs push-right fa fa-caret-down" ng-click="cCtrl.rowsCollapsed[$index]=!cCtrl.rowsCollapsed[$index]"></i>
+                    <span ng-bind="filial.descFilial+' '+filial.codFilial"></span>
+                    <i ng-show="filial.habilitaBusquedaOl" class="fa fa-check success"></i>
+                  </th>
+                  <th class="icon-container">
+                    <span ng-click="cCtrl.updateFilial(filial)" class="editar" data-toggle="popover" data-content="Editar" data-trigger="hover" data-placement="top">&nbsp;</a>
+                  </th>
+                  <th class="icon-container" data-toggle="popover" data-content="Eliminar" data-trigger="hover" data-placement="top">
+                    <span ng-click="cCtrl.removeFilial(filial.id)" class="eliminar">&nbsp;</a>
+                  </th>
+                </tr>
+              </thead>
+              <tbody ng-class="{hidden:cCtrl.rowsCollapsed[$index]}">
+                <tr ng-repeat="especialidad in filial.especialidades">
+                  <td ng-bind="especialidad.descEspecialidad"></td>
+                  <td class="icon-container">
+                    <a href="javascript:void(0)" ng-click="cCtrl.updateSpeciality(especialidad.id)" class="editar" data-toggle="popover" data-content="Editar" data-trigger="hover" data-placement="top">&nbsp;</a>
+                  </td>
+                  <td class="icon-container" data-toggle="popover" data-content="Eliminar" data-trigger="hover" data-placement="top">
+                    <a href="javascript:void(0)" ng-click="cCtrl.removeSpeciality(especialidad.id)" class="eliminar">&nbsp;</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  
+  <!-- End Tabla Resultados-->
+</div>

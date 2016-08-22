@@ -1,0 +1,19 @@
+[
+  {
+  	"contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequuntur quia, voluptatibus dignissimos, a deserunt placeat blanditiis esse ratione hic et nobis quaerat reiciendis sapiente illo velit sed, similique eum!",
+  	"id": "02",
+  	"fecha": "01/01/2016",
+  	"revision": "02",
+  	"tipo": "02",
+  	"publicar": false
+  },
+  {
+  	"contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequuntur quia, voluptatibus dignissimos, a deserunt placeat blanditiis esse ratione hic et nobis quaerat reiciendis sapiente illo velit sed, similique eum!",
+  	"id": "01",
+  	"fecha": "01/01/2016",
+  	"revision": "01",
+  	"tipo": "01",
+  	"publicar": true
+  }
+
+]

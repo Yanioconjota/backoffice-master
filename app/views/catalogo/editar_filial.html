@@ -1,0 +1,35 @@
+<div class="main-wrapper" ng-controller="FilialController as fCtrl">
+
+  <!-- Start Titulo vista -->
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="table-item">
+        <div class="title">
+          <h2>Editar 
+            <span once-text="fCtrl.filial.descFilial"></span> 
+            <span once-text="fCtrl.filial.codFilial"></span> 
+            <i ng-show="fCtrl.filial.habilitaBusquedaOl" class="fa fa-check success"></i></h2>
+        </div>
+        <button class="btn btn-default btn-sm" type="button" name="button" ng-click="fCtrl.publish()" ng-bind="fCtrl.filial.habilitaBusquedaOl ? 'Despublicar online' : 'Publicar online'"></button>
+      </div>
+    </div>
+  </div>
+  <!-- End Titulo vista -->
+
+  <!-- seleccion de especialidades  -->
+  <div ng-include="fCtrl.filterTemplate"></div>
+  
+  <div class="wrapper">
+      <div class="push-top">
+        <ul class="list-unstyled clearfix">
+          <li class="pull-left">
+            <a class="link" href="javascript:void(0)">Ver prestadores</a>
+          </li>
+          <li class="push-left pull-left">
+            <a class="link" href="javascript:void(0)">Configurar filtros del sitio</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+
+</div>

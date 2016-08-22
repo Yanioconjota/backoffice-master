@@ -1,0 +1,12 @@
+[
+  {
+    "codFilial": 30, 
+    "descFilial": "Jujuy", 
+    "especialidades": [ 
+      {
+        "codEspecialidad": 1, 
+        "descEspecialidad": "Cardiologia"
+      }
+    ]
+  }
+]

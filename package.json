@@ -1,0 +1,31 @@
+{
+  "name": "backoffice",
+  "version": "1.0.0",
+  "description": "backoffice OSDE turnos online",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karsilama/backoffice.git"
+  },
+  "author": "jesus colavita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karsilama/backoffice/issues"
+  },
+  "homepage": "https://github.com/karsilama/backoffice#readme",
+  "dependencies": {
+    "angular": "=1.2.29",
+    "angular-once": "=0.1.9",
+    "angular-route": "=1.2.29",
+    "bootstrap": "=3.3.6",
+    "express": "=4.13.4",
+    "font-awesome": "=4.6.3",
+    "jquery": "=1.12.3",
+    "ng-dialog": "^0.6.1",
+    "promise-polyfill": "^5.2.1"
+  },
+  "devDependencies": {}
+}
