@@ -43,7 +43,6 @@
         self.errorMensaje = false;
         self.original.push({id:self.original.length + 1,topico:self.newItem.topico});
       }
-      debugger;
   		//vm.array.push(angular.copy(obj));
   	}
     // if(obj === undefined || self.newItem.topico.length != 0){

@@ -78,6 +78,9 @@ h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *, p > *, li > *, dt > *, dd > * {
   font-size: inherit; }
 
 /*
+variables
+*/
+/*
 Indice :
 Clases generales
 main menu
@@ -368,6 +371,19 @@ Tablas
   .table.borderless thead, .table.borderless tbody, .table.borderless tr, .table.borderless td, .table.borderless th {
     border-color: transparent;
     border: none; }
+
+.table.alt-table td {
+  padding: 0 !important;
+  vertical-align: middle; }
+  .table.alt-table td span {
+    padding-left: 1em;
+    display: block; }
+  .table.alt-table td div {
+    padding: .25em .5em;
+    border-bottom: 1px solid #ccc;
+    width: inherit; }
+  .table.alt-table td div:last-child {
+    border-bottom: none; }
 
 .icon-container {
   text-align: center;
