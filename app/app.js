@@ -50,6 +50,10 @@
 					templateUrl: "/app/views/faq/faq.html"
 				} )
 
+				.when("/faq-editar", {
+					templateUrl: "/app/views/faq/faq-editar.html"
+				} )
+
 				.when("/prestadores", {
 					templateUrl: "/app/views/prestadores/prestadores.html"
 				} )
