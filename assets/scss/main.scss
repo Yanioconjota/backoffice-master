@@ -89,11 +89,16 @@ Texto
   }
 }
 
-input.form-control[ng-model="item.topico"] {
+textarea.form-control{
+  margin: 15px 0;
+}
+
+input.form-control[ng-model="item.topico"],
+p[ng-bind="item.texto"] {
     margin-bottom: 15px;
 }
 
-input.form-control[ng-model="faqctrl.newItem.topico"] {
+input.form-control[ng-model="faqctrl.newItem.topico"]  {
     margin-top: 15px;
 }
 

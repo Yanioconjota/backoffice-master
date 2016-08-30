@@ -1,0 +1,80 @@
+/*
+	definitions
+*/
+/*
+ styles
+*/
+html,
+body {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #696969; }
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto; }
+  body * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    behaivor: url(boxsizing.htc);
+    font-size: 12px;
+    font-family: "Arial", sans-serif; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, ins, form, fieldset, input, textarea, button, p, i, small, b, blockquote, table, thead, tbody, tr, th, td {
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none; }
+
+fieldset, img {
+  border: none; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ' '; }
+
+abbr, acronym {
+  border: 0; }
+
+h1, h2, h3, h4, h5, h6, p, li, textarea, input, dt, dd {
+  font-family: "Arial", sans-serif;
+  font-size: 15px; }
+
+a,
+a:hover {
+  text-decoration: none; }
+
+*:link,
+*:visited,
+*:focus,
+*:active {
+  outline: 0; }
+
+textarea {
+  resize: none; }
+
+h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *, p > *, li > *, dt > *, dd > * {
+  font-size: inherit; }
+
+/*# sourceMappingURL=reset.css.map */

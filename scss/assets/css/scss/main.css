@@ -147,8 +147,7 @@ Texto
 textarea.form-control {
   margin: 15px 0; }
 
-input.form-control[ng-model="item.topico"],
-p[ng-bind="item.texto"] {
+input.form-control[ng-model="item.topico"] {
   margin-bottom: 15px; }
 
 input.form-control[ng-model="faqctrl.newItem.topico"] {
